@@ -1,0 +1,74 @@
+h1{
+    color: blueviolet;
+}
+ul{
+    list-style:none ;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: relative;
+    top: -13vh
+}
+li{
+    margin: 3vw;
+}
+li:hover {
+ background-color: rgb(127, 29, 167);
+ border-radius: 5px;
+ color: cornsilk;
+}
+.bars{
+    display: none;
+}
+.close{
+    display: none;
+}
+
+@media all and (max-width: 1096px) {
+    ul{
+        list-style:none ;
+        display: none;
+        flex-direction: column;
+        justify-content: flex-end;
+        position: relative;
+        top: -8vh;
+        padding: 1vh;
+        background-color: rgb(184, 214, 16);
+        width: 40%;
+}
+/* .ul{
+    list-style:none ;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        position: relative;
+        top: -8vh;
+        padding: 1vh;
+} */
+li{
+    margin: 1.5vw;
+}
+    .bars{
+        display: block;
+        position: relative;
+        top: -7vh;
+        left: 90vw;
+        background-color: rgb(154, 103, 196);
+        color: white;
+        border-radius: 30%;
+    }
+}
+.close{
+    display: none;
+    position: relative;
+    left: 44vw;
+    top: -29.4vh;
+    color: red;
+    font-weight: 900 ;
+    font-size: larger;
+    background-color: rgb(184, 214, 16) ;
+}
+.close:hover {
+    background-color: rgb(32, 6, 11);
+    
+}
